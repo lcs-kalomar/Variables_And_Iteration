@@ -2,5 +2,21 @@
 <Timeline
    version = "3.0">
    <TimelineItems>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/kalomar/Documents/Variables_And_Iteration/Variables_And_Iteration/Variables_And_Iteration.playground/Pages/Iteration.xcplaygroundpage#CharacterRangeLen=12&amp;CharacterRangeLoc=730&amp;EndingColumnNumber=0&amp;EndingLineNumber=17&amp;StartingColumnNumber=5&amp;StartingLineNumber=16&amp;Timestamp=529341736.273295"
+         selectedRepresentationIndex = "1"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/kalomar/Documents/Variables_And_Iteration/Variables_And_Iteration/Variables_And_Iteration.playground/Pages/Iteration.xcplaygroundpage#CharacterRangeLen=1&amp;CharacterRangeLoc=1240&amp;EndingColumnNumber=0&amp;EndingLineNumber=37&amp;StartingColumnNumber=5&amp;StartingLineNumber=36&amp;Timestamp=529341736.273581"
+         selectedRepresentationIndex = "2"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/kalomar/Documents/Variables_And_Iteration/Variables_And_Iteration/Variables_And_Iteration.playground/Pages/Iteration.xcplaygroundpage#CharacterRangeLen=6&amp;CharacterRangeLoc=1273&amp;EndingColumnNumber=11&amp;EndingLineNumber=39&amp;StartingColumnNumber=5&amp;StartingLineNumber=39&amp;Timestamp=529341736.273816"
+         lockedSize = "{175, 155}"
+         selectedRepresentationIndex = "1"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
    </TimelineItems>
 </Timeline>
