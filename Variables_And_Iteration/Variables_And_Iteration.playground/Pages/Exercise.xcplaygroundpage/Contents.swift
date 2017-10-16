@@ -16,9 +16,12 @@ import PlaygroundSupport
 // Create canvas
 let canvas = Canvas(width: 300, height: 300)
 
-//: ## Add your code below
-
-
+canvas.fillColor = Color.black
+for x in stride(from: 0, through: 300, by: 50){
+    for y in stride(from: 25, through: 275, by: -50){
+        canvas.drawEllipse(centreX: x, centreY: y, width: 3, height: 3)
+}
+}
 
 /*:
  ## Template code
