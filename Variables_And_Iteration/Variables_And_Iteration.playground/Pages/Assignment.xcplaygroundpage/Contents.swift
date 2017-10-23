@@ -19,27 +19,13 @@ import PlaygroundSupport
 
 // Create canvas
 let canvas = Canvas(width: 500, height: 500)
-canvas.defaultLineWidth=7
-canvas.drawLine(fromX: 100, fromY: 100, toX: 100, toY: 100)
-canvas.drawLine(fromX: 150, fromY: 150, toX: 150, toY: 150)
-canvas.drawRectangle(centreX: 100, centreY: 100, width: 100, height: 100)
-canvas.drawLine(fromX: 400, fromY: 100, toX: 400, toY: 100)
-canvas.drawLine(fromX: 450, fromY: 100, toX: 450, toY: 100)
-canvas.drawRectangle(centreX: 400, centreY: 100, width: 400, height: 100)
 
-canvas.drawLine(fromX: 100, fromY: 400, toX: 100, toY: 400)
-canvas.drawLine(fromX: 150, fromY: 400, toX: 100, toY: 400)
-canvas.drawRectangle(centreX: 100, centreY: 400, width: 100, height: 100)
-canvas.drawLine(fromX: 400, fromY: 400, toX: 400, toY: 400)
-canvas.drawLine(fromX: 450, fromY: 400, toX: 450, toY: 400)
-canvas.drawRectangle(centreX: 400, centreY: 400, width: 400, height: 100)
-
-
-canvas.drawShapesWithFill
-canvas.fillColor=Color.blue
-canvas.drawEllipse(centreX: 250, centreY: 250, width: 90, height: 90)
-
-
+// Draw Square
+for x in stride(from: 0, through: 500, by: 25) {
+    for y in stride(from: 0, through: 500, by: 30 ) {
+       canvas.drawEllipse(centreX: x, centreY: y, width: 30, height: 30)
+    }
+}
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
