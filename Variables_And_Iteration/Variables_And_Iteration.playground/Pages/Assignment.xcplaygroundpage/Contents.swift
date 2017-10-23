@@ -23,7 +23,7 @@ let canvas = Canvas(width: 500, height: 500)
 // Draw Square
 for x in stride(from: 0, through: 500, by: 25) {
     for y in stride(from: 0, through: 500, by: 30 ) {
-       canvas.drawEllipse(centreX: x, centreY: y, width: 30, height: 30)
+       canvas.drawEllipse(centreX: x, centreY: y, width: 15, height: 15)
     }
 }
 /*:
